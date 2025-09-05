@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/C++.png
 title: "Bank Database Application"
 date: 2024
 published: true
@@ -13,12 +13,6 @@ labels:
   - Object-Oriented Programming
 summary: "Program from ICSD 212 allowed a user to maintain bank records"
 ---
-
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
 Developed a banking database system that allows users to add, delete, search, and display customer records. Originally implemented in C using linked lists and later refactored into an object-oriented design in C++. Included features such as file I/O for persistence, robust input validation, and a debug mode for tracing program execution.With this project I gained experience with both procedural and object-oriented programming, memory management, and debugging practices. This allowed me to demonstrated the ability to design and implement data structures and manage persistent storage.
 
