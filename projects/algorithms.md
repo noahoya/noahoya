@@ -13,7 +13,7 @@ labels:
 summary: "Algorithms learned from ICS 311"
 ---
     
-<img class="img-fluid" src="../img/dijkstra.png" alt="Algorithms" style="width: 200px; height: 200px; object-fit: cover;">
+<img class="img-fluid" src="../img/dijkstra.png">
 
 Overview -
 Throughout my coursework, I implemented a variety of algorithms and data structures in both Java and C++. These implementations included linked lists, heaps, sorting algorithms, graph traversals (BFS/DFS), shortest path algorithms such as Dijkstra’s and Bellman-Ford, and several dynamic programming problems. This project represents a collection of these implementations and the analysis I performed to understand their efficiency and correctness.
