@@ -48,3 +48,9 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+/* Force all project listing images to be same size */
+.project .img-fluid {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
