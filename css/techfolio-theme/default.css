@@ -61,3 +61,12 @@ a {
   flex: 0 0 200px;
   max-width: 200px;
 }
+/* Fallback selectors for other skins */
+.project-list img.img-fluid,
+.tf-project img.img-fluid,
+.card-img-left img,
+.card img.project-image {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+}
