@@ -48,9 +48,16 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
-/* Force all project listing images to be same size */
-.project .img-fluid {
-  width: 200px;
-  height: 200px;
+/* Force uniform project thumbnails on the Projects listing */
+.tf-projects .card img.img-fluid {
+  width: 200px !important;
+  height: 200px !important;
   object-fit: cover;
+  object-position: center;
+}
+
+/* Keep the left thumbnail column a fixed width so the text lines up */
+.tf-projects .card .row > [class*="col-"]:first-child {
+  flex: 0 0 200px;
+  max-width: 200px;
 }
