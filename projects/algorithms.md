@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/algorithms.png
-title: "Java & C Integration with JNI"
+title: "Algorithms & Data Structures Implementations"
 date: 2024
 published: true
 labels:
