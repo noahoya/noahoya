@@ -58,5 +58,3 @@ if (strncmp(user_input, "add", strlen(user_input)) == 0)
         fgets(trash, 100, stdin);
     }
 }
-
-
