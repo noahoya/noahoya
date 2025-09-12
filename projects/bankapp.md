@@ -26,11 +26,6 @@ I later refactored this project into C++ to take advantage of object-oriented pr
 Outcome -
 Through this project, I gained experience with low-level memory management, linked list manipulation, file I/O, and OOP design principles. This was my first project that truly felt like building a small-scale software product rather than just writing a program.
 
-
-Here is a snippet of the code for when a user wanted to add an account:
-
-## Example Code
-
 Here is a snippet of the code for when a user wanted to add an account:
 
 ## Example Code
