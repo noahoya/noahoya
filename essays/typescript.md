@@ -11,7 +11,7 @@ labels:
   - Challenges
 ---
 
-<img class="img-fluid" src="../img/bb.png">
+<img class="img-fluid" src="../img/typescript.png">
 
 ## Getting started with Typescript
 
