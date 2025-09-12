@@ -1,4 +1,4 @@
----
+<img width="569" height="292" alt="image" src="https://github.com/user-attachments/assets/b44f1e5a-472b-4304-bcda-6fadbab1209c" />---
 layout: project
 type: project
 image: img/algorithms.png
@@ -11,8 +11,18 @@ labels:
   - Pseudocode
   - Algorithm Analysis
 summary: "Algorithms learned from ICS 311"
----
-Implemented and analyzed classic algorithms and data structures, including linked lists, heaps, sorting algorithms, shortest paths (Dijkstra, Bellman-Ford) and dynamic programming problems. Documented correctness proofs, and runtime analysis. This strengthened my problem solving skills and theoretical understanding of algorithms. This allowed me demonstrate the ability to translate theory into efficient code while analyzing performace tradeoffs.
+
+    
+<img class="img-fluid" src="../img/dijkstra.png">
+
+Overview -
+Throughout my coursework, I implemented a variety of algorithms and data structures in both Java and C++. These implementations included linked lists, heaps, sorting algorithms, graph traversals (BFS/DFS), shortest path algorithms such as Dijkstra’s and Bellman-Ford, and several dynamic programming problems. This project represents a collection of these implementations and the analysis I performed to understand their efficiency and correctness.
+
+Implementation -
+Each algorithm was implemented following CLRS-style pseudocode, then tested on sample input to verify correctness. I performed runtime analysis to confirm that the implementations met their expected time complexities, such as O(V log V + E) for Dijkstra’s algorithm with a priority queue. I also created a personal cheat sheet summarizing the pseudocode, runtimes, and problem-solving patterns for use during exam prep.
+
+Outcome -
+This work strengthened my algorithmic problem-solving skills and deepened my understanding of runtime analysis. By translating theoretical designs into code, I learned to identify edge cases, validate outputs, and optimize for performance. These skills continue to be foundational for tackling new technical challenges.
 
 Here is an example of some psuedocde I had to learn how to implement to solve a shortest paths problem
 
