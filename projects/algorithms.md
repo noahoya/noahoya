@@ -11,7 +11,7 @@ labels:
   - Pseudocode
   - Algorithm Analysis
 summary: "Algorithms learned from ICS 311"
-
+---
     
 <img class="img-fluid" src="../img/dijkstra.png">
 
