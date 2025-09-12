@@ -26,6 +26,9 @@ This work strengthened my algorithmic problem-solving skills and deepened my und
 
 Here is an example of some psuedocde I had to learn how to implement to solve a shortest paths problem
 
+Here is an example of some pseudocode I had to learn and implement to solve a shortest paths problem:
+
+```text
 DIJKSTRA(G, w, s)
   INITIALIZE-SINGLE-SOURCE(G, s)
   S = ∅
@@ -35,4 +38,5 @@ DIJKSTRA(G, w, s)
     S = S ∪ {u}
     for each vertex v in G.Adj[u]
       RELAX(u, v, w)
+
 
