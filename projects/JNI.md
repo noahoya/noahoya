@@ -13,7 +13,7 @@ labels:
 summary: "Program from ICS 212 that used two languages for front end and back end"
 ---
 
-<img class="img-fluid" src="../img/JNIheader.png">
+<img class="img-fluid" src="../img/JNIheader.png" alt="JNI" style="width: 200px; height: 200px; object-fit: cover;">
 
 Overview - 
 This project involved creating a cross-language program where Java handled user interaction and display while C performed backend computations. The program generated a formatted table of numbers, using a C function to determine whether each number was a multiple of three. This exercise focused on bridging high-level language convenience with low-level performance, allowing me to use the best tool for each part of the task.
