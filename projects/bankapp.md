@@ -31,12 +31,18 @@ Here is a snippet of the code for when a user wanted to add an account:
 
 ## Example Code
 
+Here is a snippet of the code for when a user wanted to add an account:
+
+## Example Code
+
 ```c
-if (strncmp(user_input, "add", strlen(user_input)) == 0) 
+if (strncmp(user_input, "add", strlen(user_input)) == 0)
 {
     printf("Please provide the account number and press enter: ");
     user_input_accountNum = scanf("%d", &accountno);
     fgets(trash, 100, stdin);
+
+    valid_input = 1; // make sure this is initialized somewhere
 
     if (user_input_accountNum != 1 || accountno <= 0)
     {
@@ -58,3 +64,5 @@ if (strncmp(user_input, "add", strlen(user_input)) == 0)
         fgets(trash, 100, stdin);
     }
 }
+```
+
