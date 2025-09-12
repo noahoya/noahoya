@@ -28,7 +28,7 @@ Here is an example of some psuedocde I had to learn how to implement to solve a 
 
 Here is an example of some pseudocode I had to learn and implement to solve a shortest paths problem:
 
-```text
+~~~
 DIJKSTRA(G, w, s)
   INITIALIZE-SINGLE-SOURCE(G, s)
   S = ∅
@@ -36,8 +36,9 @@ DIJKSTRA(G, w, s)
   while Q ≠ ∅
     u = EXTRACT-MIN(Q)
     S = S ∪ {u}
-```
     for each vertex v in G.Adj[u]
       RELAX(u, v, w)
+~~~
+
 
 
