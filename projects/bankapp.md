@@ -32,23 +32,31 @@ Here is a snippet of the code for when a user wanted to add an account:
 ## Example Code
 
 ```c
-if (user_input_accountNum != 1 || accountno <= 0)
+if (strncmp(user_input, "add", strlen(user_input)) == 0) 
 {
-    printf("Please enter a valid positive integer.\n");
-    valid_input = 0;
-}
-
-if (valid_input)
-{
-    printf("Please enter the name for the account: ");
-    fgets(name, 30, stdin);
-    name[strcspn(name, "\n")] = 0;
-
-    printf("Please enter the Address and enter '!' when finished:\n");
-    getaddress(address, 45);
-
-    addRecord(&start, accountno, name, address);
-
+    printf("Please provide the account number and press enter: ");
+    user_input_accountNum = scanf("%d", &accountno);
     fgets(trash, 100, stdin);
+
+    if (user_input_accountNum != 1 || accountno <= 0)
+    {
+        printf("Please enter a valid positive integer.\n");
+        valid_input = 0;
+    }
+
+    if (valid_input)
+    {
+        printf("Please enter the name for the account: ");
+        fgets(name, 30, stdin);
+        name[strcspn(name, "\n")] = 0;
+
+        printf("Please enter the Address and enter '!' when finished:\n");
+        getaddress(address, 45);
+
+        addRecord(&start, accountno, name, address);
+
+        fgets(trash, 100, stdin);
+    }
 }
+
 
