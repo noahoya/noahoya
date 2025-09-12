@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/algorithms.png
+image: img/project_thumb_2.png
 title: "Algorithms & Data Structures Implementations"
 date: 2024
 published: true
