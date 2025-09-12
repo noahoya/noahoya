@@ -14,29 +14,37 @@ labels:
 summary: "Program from ICS 212 allowed a user to maintain bank records"
 ---
 
-Developed a banking database system that allows users to add, delete, search, and display customer records. Originally implemented in C using linked lists and later refactored into an object-oriented design in C++. Included features such as file I/O for persistence, robust input validation, and a debug mode for tracing program execution.With this project I gained experience with both procedural and object-oriented programming, memory management, and debugging practices. This allowed me to demonstrated the ability to design and implement data structures and manage persistent storage.
+Overview
+This project focused on developing a banking database system that allows users to add, delete, search, and display customer records. The goal was to simulate a simple bank database with persistent storage and provide a user-friendly interface for performing basic operations. The initial version was implemented in C using a sorted linked list to manage records, which required careful handling of dynamic memory allocation and pointer operations.
 
-Here is a brief snippet of a script recording user inputs and how the application responded
+Implementation
+I later refactored this project into C++ to take advantage of object-oriented programming concepts such as encapsulation and constructors/destructors. This version introduced a class (llist) to manage the database, improving code readability and maintainability. I also added a debug mode that prints function calls and parameters to assist with tracing and testing. The project required separate compilation and linking with a Makefile, which taught me how to structure larger programs into multiple source files.
 
-Script started on Sun 29 Sep 2024 09:48:38 AM HST
-]0;noahoya@uhx02:~/homework3b [?1034huhx02:/home/n/noahoya/homework3b% ./homework3 debug something
-Invalid command line arguments, please use ./homework3 or ./homework3 debug
-]0;noahoya@uhx02:~/homework3b uhx02:/home/n/noahoya/homework3b% /[K./homework3 d[K[K\[K
-Welcome to the Bank Database Application! Here, you can manage customer's bank 
-records stored in their database by creating a new record, viewing an exisiting one
-deleting an old record, or printing all records
+Outcome
+Through this project, I gained experience with low-level memory management, linked list manipulation, file I/O, and OOP design principles. This was my first project that truly felt like building a small-scale software product rather than just writing a program.
 
-Please choose an option from the menu by typing one of the following then hitting enter:
-add, printall, find, delete, or quit. See decription below
+Here is a snippet of the code for when a user wanted to add an account:
 
-add: Add a new record in the database
-printall: Print all records in the database
-find: Find record(s) with a specific account #
-delete: Delete existing record(s) from the database using the account # as a key
-quit: Exit the program
-add
-Please provide the account number and press enter: 1 -102
-Please enter a valid positive integer.
-Please choose an option from the menu by typing one of the following then hitting enter:
-add, printall, find, delete, or quit. See decription below
+ if (strncmp(user_input, "add", strlen(user_input)) == 0)
+        {
+            printf("Please provide the account number and press enter: ");
+            user_input_accountNum = scanf("%d", &accountno);
+            fgets(trash, 100, stdin);
 
+            if (user_input_accountNum != 1 || accountno <= 0)
+            {
+                printf("Please enter a valid positive integer.\n");
+                valid_input = 0;
+            }
+            
+            if(valid_input)
+            {
+            printf("Please enter the name for the account: ");
+            fgets(name, 30, stdin);
+            name[strcspn(name, "\n")] = 0;
+            printf("Please enter the Address and enter '!' when finished:\n");
+            getaddress(address, 45);
+            addRecord(&start, accountno, name, address);
+            fgets(trash, 100, stdin);
+            }
+        }
