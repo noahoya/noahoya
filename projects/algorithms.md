@@ -24,8 +24,6 @@ Each algorithm was implemented following CLRS-style pseudocode, then tested on s
 Outcome -
 This work strengthened my algorithmic problem-solving skills and deepened my understanding of runtime analysis. By translating theoretical designs into code, I learned to identify edge cases, validate outputs, and optimize for performance. These skills continue to be foundational for tackling new technical challenges.
 
-Here is an example of some psuedocde I had to learn how to implement to solve a shortest paths problem
-
 Here is an example of some pseudocode I had to learn and implement to solve a shortest paths problem:
 
 ~~~
