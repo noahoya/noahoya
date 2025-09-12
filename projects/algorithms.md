@@ -36,6 +36,7 @@ DIJKSTRA(G, w, s)
   while Q ≠ ∅
     u = EXTRACT-MIN(Q)
     S = S ∪ {u}
+```
     for each vertex v in G.Adj[u]
       RELAX(u, v, w)
 
