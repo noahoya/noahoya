@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/C.png
+image: img/project_thumb_1.png
 title: "Bank Database Application"
 date: 2024
 published: true
@@ -14,7 +14,7 @@ labels:
 summary: "Program from ICS 212 allowed a user to maintain bank records"
 ---
 
-<img class="img-fluid" src="../img/project_thumb_1.png">
+<img class="img-fluid" src="../img/userinterface.png">
 
 Overview -
 This project focused on developing a banking database system that allows users to add, delete, search, and display customer records. The goal was to simulate a simple bank database with persistent storage and provide a user-friendly interface for performing basic operations. The initial version was implemented in C using a sorted linked list to manage records, which required careful handling of dynamic memory allocation and pointer operations.
