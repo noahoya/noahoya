@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/java.png
+image: img/project_thumb_3.png
 title: "Java & C Integration with JNI"
 date: 2024
 published: true
