@@ -13,47 +13,40 @@ labels:
 summary: "Program from ICS 212 that used two languages for front end and back end"
 ---
 
-Created a cross-language application that generates a formatted table of numbers and checks whether each value is a multiple of three. The Java front-end handled user input and table display, while the C back-end handled the mathematical logic, connected through the Java Native Interface (JNI). This allowed me to develop skills in software interoperability and modular design by integrating two programming languages. Showcased the ability to bridge systems-level logic with higher-level interfaces.
+<img class="img-fluid" src="../img/JNIheader.png">
 
-Here is a snippet of a script recording user inputs and how the application responded
-Script started on Fri 13 Sep 2024 10:41:27 PM HST
-]0;noahoya@uhx02:~/homework2 [?1034huhx02:/home/n/noahoya/homework2% exitgcc -o homework2 homework2.oansi -pedantic-errors -Wall -c homework2.c
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./homework2
-This program will generate a table of numbers from
-0 to the maximum number you(the user) provide(s)
-It will also have a column stating whether each
-number is a multiple of 3 or not.
-Enter maximum number to show: -5
-Please enter a valid positive integer.
-This program will generate a table of numbers from
-0 to the maximum number you(the user) provide(s)
-It will also have a column stating whether each
-number is a multiple of 3 or not.
-Enter maximum number to show: abc
-Please enter a valid positive integer.
-This program will generate a table of numbers from
-0 to the maximum number you(the user) provide(s)
-It will also have a column stating whether each
-number is a multiple of 3 or not.
-Enter maximum number to show: 15
-  Number  Multiple of 3?
-       0  No
-       1  No
-       2  No
-       3  Yes
-       4  No
-       5  No
-       6  Yes
-       7  No
-       8  No
-       9  Yes
-      10  No
-      11  No
-      12  Yes
-      13  No
-      14  No
-      15  Yes
-]0;noahoya@uhx02:~/homework2 uhx02:/home/n/noahoya/homework2% exit
-exit
+Overview - 
+This project involved creating a cross-language program where Java handled user interaction and display while C performed backend computations. The program generated a formatted table of numbers, using a C function to determine whether each number was a multiple of three. This exercise focused on bridging high-level language convenience with low-level performance, allowing me to use the best tool for each part of the task.
 
-Script done on Fri 13 Sep 2024 10:41:44 PM HST
+Implementation -
+Using the Java Native Interface (JNI), I connected Java methods to C functions and compiled them into a shared library. The front end displayed a neatly formatted table of numbers and relied on native calls to determine if a number was a multiple of three, returning results as 1 or 0. The project also included a Makefile to compile both the Java and C components, ensuring smooth integration across languages and platforms.
+
+Outcome -
+This project helped me understand how different languages can work together to build a single cohesive application. I gained experience in JNI setup, cross-language function calls, and debugging across multiple environments. It also reinforced the importance of modular design and clear interfaces between system components
+
+## Example Code: User Interface Function
+
+```c
+int user_interface()
+{
+    int max;
+    int user_input = 0;
+    char trash[100];
+
+    printf("This program will generate a table of numbers from\n"
+           "0 to the maximum number you (the user) provide(s)\n"
+           "It will also have a column stating whether each\n"
+           "number is a multiple of 3 or not.\n");
+
+    printf("Enter maximum number to show: ");
+
+    user_input = scanf("%d", &max);
+
+    if (user_input != 1 || max <= 0)
+    {
+        printf("Please enter a valid positive integer.\n");
+        fgets(trash, 100, stdin);
+        max = -1;
+    }
+    return max;
+}
