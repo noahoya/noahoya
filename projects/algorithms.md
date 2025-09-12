@@ -1,4 +1,4 @@
-<img width="569" height="292" alt="image" src="https://github.com/user-attachments/assets/b44f1e5a-472b-4304-bcda-6fadbab1209c" />---
+---
 layout: project
 type: project
 image: img/algorithms.png
