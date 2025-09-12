@@ -11,7 +11,7 @@ labels:
   - Linked Lists
   - File I/O
   - Object-Oriented Programming
-summary: "Program from ICSD 212 allowed a user to maintain bank records"
+summary: "Program from ICS 212 allowed a user to maintain bank records"
 ---
 
 Developed a banking database system that allows users to add, delete, search, and display customer records. Originally implemented in C using linked lists and later refactored into an object-oriented design in C++. Included features such as file I/O for persistence, robust input validation, and a debug mode for tracing program execution.With this project I gained experience with both procedural and object-oriented programming, memory management, and debugging practices. This allowed me to demonstrated the ability to design and implement data structures and manage persistent storage.
