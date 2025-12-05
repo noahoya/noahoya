@@ -1,6 +1,7 @@
 ---
 title: The Patterns You Do Not Notice Until You Actually Build Something
 layout: essay
+date: 2025-02-04
 ---
 <img class="img-fluid" src="../img/design.png">
 ## The Patterns You Do Not Notice Until You Actually Build Something
