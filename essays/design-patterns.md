@@ -10,7 +10,6 @@ labels:
   - Final Project
 ---
 <img class="img-fluid" src="../img/design.png">
-## The Patterns You Do Not Notice Until You Actually Build Something
 
 When I first started learning how to code, I thought writing software was just about getting things to work. If a page loaded and a button clicked, I felt like I was set. But when I began building bigger projects, especially my final project for this class, I started to notice something. There is a whole layer of structure underneath real applications. Developers call these design patterns, but to me they feel more like the habits that naturally show up when you try to keep your project from turning into a mess.
 
