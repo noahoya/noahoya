@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "The Patterns You Do Not Notice Until You Actually Build Something"
-date: 2025-02-04
+date: 2025-12-04
 published: true
 labels:
   - Design Patterns
