@@ -1,7 +1,13 @@
 ---
-title: The Patterns You Do Not Notice Until You Actually Build Something
 layout: essay
+type: essay
+title: "The Patterns You Do Not Notice Until You Actually Build Something"
 date: 2025-02-04
+published: true
+labels:
+  - Design Patterns
+  - Software Engineering
+  - Final Project
 ---
 <img class="img-fluid" src="../img/design.png">
 ## The Patterns You Do Not Notice Until You Actually Build Something
