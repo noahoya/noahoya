@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "The Patterns You Do Not Notice Until You Actually Build Something"
-date: 2025-12-04
+title: "Estimating Time Is Not Guessing, It Is Managing"
+date: 2025-12-14
 published: true
 labels:
   - IDPM
