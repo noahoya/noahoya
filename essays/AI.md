@@ -68,7 +68,7 @@ I did use AI to write code sometimes, but usually only as a starting draft. A pr
 
 AI helped with documentation because it can summarize patterns quickly. I used prompts like, “Write a short README section explaining how to run this project locally and what the main features are. Keep it student project level.” This was helpful, but I still had to verify commands and avoid fake steps. Documentation is only useful if it is accurate.
 
-## Quality assurance (for example “What’s wrong with this code” or “Fix the ESLint errors in <code here>”)
+## Quality assurance 
 
 This was one of my biggest use cases. A prompt I used was, “Fix the ESLint errors in this file without changing behavior. Here is the code and the lint output.” AI was helpful at spotting small issues fast. The cost is that it might fix by rewriting logic, which is not always what I want. I learned to be super specific, like only change formatting and typing, do not change logic.
 
