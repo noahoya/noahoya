@@ -9,7 +9,7 @@ labels:
   - Effort Estimation
   - Project Management
 ---
-
+<img class="img-fluid" src="../img/EE.png">
 ## How I Made My Effort Estimates
 
 When I first saw that we had to estimate effort for every issue, I treated it like I was supposed to predict the future and be right. Pretty quickly I realized the point was different. Estimation is more like planning because it forces you to think about what the task actually includes before you start.
