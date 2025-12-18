@@ -10,6 +10,7 @@ labels:
   - Software Engineering
   - Ethics
 ---
+<img class="img-fluid" src="../img/SWE.png">
 
 ## The biggest shift I had this semester
 
