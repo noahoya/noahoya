@@ -7,6 +7,7 @@ labels:
   - Software Engineering
   - Nextjs
 ---
+<img class="img-fluid" src="../img/fish.png">
 
 # Project: CatchMap Hawaii
 
