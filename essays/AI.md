@@ -9,7 +9,7 @@ labels:
   - ICS 314
   - Software Engineering
 ---
-
+<img class="img-fluid" src="../img/AI.png">
 ## Introduction
 
 AI is showing up everywhere in education now, but in Software Engineering it feels especially relevant because the work is already tool heavy. In ICS 314, a lot of the learning is not just concepts, it is also workflows: reading docs, debugging weird errors, writing clean code, and communicating with a team. For me, AI became like a fast helper in that process.
